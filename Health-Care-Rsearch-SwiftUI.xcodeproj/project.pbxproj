@@ -7,19 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		460D32A825F51388004D3179 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460D32A725F51388004D3179 /* HealthKit.framework */; };
+		460D32AB25F516C3004D3179 /* HealthKitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460D32AA25F516C3004D3179 /* HealthKitViewModel.swift */; };
+		460D32AE25F57D1B004D3179 /* ProfileDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460D32AD25F57D1B004D3179 /* ProfileDataStore.swift */; };
+		460D32B125F58ADB004D3179 /* ProfileAndBMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460D32B025F58ADB004D3179 /* ProfileAndBMI.swift */; };
+		460D32C225F59EFD004D3179 /* BMIRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460D32C125F59EFD004D3179 /* BMIRow.swift */; };
 		46F6D40C25F50745004404E9 /* Health_Care_Rsearch_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6D40B25F50745004404E9 /* Health_Care_Rsearch_SwiftUIApp.swift */; };
 		46F6D40E25F50745004404E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6D40D25F50745004404E9 /* ContentView.swift */; };
 		46F6D41025F50749004404E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F6D40F25F50749004404E9 /* Assets.xcassets */; };
 		46F6D41325F50749004404E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F6D41225F50749004404E9 /* Preview Assets.xcassets */; };
+		46F6D42025F5080E004404E9 /* HealthKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F6D41F25F5080E004404E9 /* HealthKitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		460D32A525F51388004D3179 /* Health-Care-Rsearch-SwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Health-Care-Rsearch-SwiftUI.entitlements"; sourceTree = "<group>"; };
+		460D32A725F51388004D3179 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		460D32AA25F516C3004D3179 /* HealthKitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitViewModel.swift; sourceTree = "<group>"; };
+		460D32AD25F57D1B004D3179 /* ProfileDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataStore.swift; sourceTree = "<group>"; };
+		460D32B025F58ADB004D3179 /* ProfileAndBMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAndBMI.swift; sourceTree = "<group>"; };
+		460D32C125F59EFD004D3179 /* BMIRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIRow.swift; sourceTree = "<group>"; };
 		46F6D40825F50745004404E9 /* Health-Care-Rsearch-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health-Care-Rsearch-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F6D40B25F50745004404E9 /* Health_Care_Rsearch_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_Care_Rsearch_SwiftUIApp.swift; sourceTree = "<group>"; };
 		46F6D40D25F50745004404E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		46F6D40F25F50749004404E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46F6D41225F50749004404E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		46F6D41425F50749004404E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F6D41F25F5080E004404E9 /* HealthKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +40,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460D32A825F51388004D3179 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		460D32A625F51388004D3179 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				460D32A725F51388004D3179 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		46F6D3FF25F50745004404E9 = {
 			isa = PBXGroup;
 			children = (
 				46F6D40A25F50745004404E9 /* Health-Care-Rsearch-SwiftUI */,
 				46F6D40925F50745004404E9 /* Products */,
+				460D32A625F51388004D3179 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +75,10 @@
 		46F6D40A25F50745004404E9 /* Health-Care-Rsearch-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				460D32A525F51388004D3179 /* Health-Care-Rsearch-SwiftUI.entitlements */,
+				46F6D41D25F50766004404E9 /* Data Store */,
+				46F6D41C25F50761004404E9 /* Views */,
 				46F6D40B25F50745004404E9 /* Health_Care_Rsearch_SwiftUIApp.swift */,
-				46F6D40D25F50745004404E9 /* ContentView.swift */,
 				46F6D40F25F50749004404E9 /* Assets.xcassets */,
 				46F6D41425F50749004404E9 /* Info.plist */,
 				46F6D41125F50749004404E9 /* Preview Content */,
@@ -67,6 +92,34 @@
 				46F6D41225F50749004404E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		46F6D41C25F50761004404E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46F6D41E25F507FE004404E9 /* Health Kit */,
+				46F6D40D25F50745004404E9 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46F6D41D25F50766004404E9 /* Data Store */ = {
+			isa = PBXGroup;
+			children = (
+				460D32AD25F57D1B004D3179 /* ProfileDataStore.swift */,
+			);
+			path = "Data Store";
+			sourceTree = "<group>";
+		};
+		46F6D41E25F507FE004404E9 /* Health Kit */ = {
+			isa = PBXGroup;
+			children = (
+				46F6D41F25F5080E004404E9 /* HealthKitView.swift */,
+				460D32AA25F516C3004D3179 /* HealthKitViewModel.swift */,
+				460D32B025F58ADB004D3179 /* ProfileAndBMI.swift */,
+				460D32C125F59EFD004D3179 /* BMIRow.swift */,
+			);
+			path = "Health Kit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +192,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				46F6D40E25F50745004404E9 /* ContentView.swift in Sources */,
+				460D32AE25F57D1B004D3179 /* ProfileDataStore.swift in Sources */,
+				460D32B125F58ADB004D3179 /* ProfileAndBMI.swift in Sources */,
+				460D32AB25F516C3004D3179 /* HealthKitViewModel.swift in Sources */,
+				460D32C225F59EFD004D3179 /* BMIRow.swift in Sources */,
+				46F6D42025F5080E004404E9 /* HealthKitView.swift in Sources */,
 				46F6D40C25F50745004404E9 /* Health_Care_Rsearch_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +325,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Health-Care-Rsearch-SwiftUI/Health-Care-Rsearch-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Health-Care-Rsearch-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = NL38PKJFTM;
@@ -289,6 +348,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Health-Care-Rsearch-SwiftUI/Health-Care-Rsearch-SwiftUI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Health-Care-Rsearch-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = NL38PKJFTM;
